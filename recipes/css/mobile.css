@@ -1,0 +1,129 @@
+
+body{
+	background-image: url(https://i0.wp.com/glctulsa.org/wp-content/uploads/2014/05/dark_spot_background_texture_50611_1920x1080.jpg?fit=1024%2C576);
+}
+
+h1{
+	font-weight: bold;
+	padding: 20px 0px 20px 0px;
+	background-color: black;
+	text-overflow: hidden; 
+}
+
+.homeBar{
+	overflow: hidden;
+	color: green;
+	float: right;
+	display: none;
+}
+
+a{
+	color: yellow;
+}
+
+h1,
+#quote {
+	font-size: 40px;
+	text-align: center;
+	width:100%;
+	color: yellow;
+}
+
+.home {
+	float: right;
+	margin-right: 30px;
+	list-style-type: none;
+	font-size: 20px;
+	color: white;
+}
+
+.am,
+.lunch,
+.dinner,
+.sweets,
+.snacks{
+	font-size: 25px;
+	padding-bottom: 25px;
+	text-decoration: underline;
+	list-style: none;
+	color: white;
+
+}
+
+footer{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: yellow;
+	background-color: black;
+	width:100%;
+}
+
+#food{
+	overflow: hidden;
+}
+
+#sidebar{
+	width: 15%;
+	margin-left: 5%;
+	float: left;
+}
+
+section{
+	float: right;
+	font-size: 20px;
+	margin-right: 10px;
+	margin-left: 60px;
+	width:60%;
+	/*display: none;
+*/}
+
+p{
+	padding-left: 15px;
+}
+
+img{
+	margin: auto;
+	display: block;
+	width: 40%;
+	padding-top: 20px;
+}
+
+.tofu1,
+.tuna,
+.veggie,
+.rice,
+.cupcakes,
+.chick,
+.stuff,
+.one,
+.stuff2,
+.two,
+.stuff3,
+.three,
+.stuff4,
+.four,
+.stuff5,
+.five,
+h5
+ {
+	display: none;
+	padding-bottom: 10px;
+	color: white;
+}
+
+@media (min-width: 768px){
+	img{
+		width: 55%;
+	}
+
+	.homeBar{
+	text-overflow: hidden;
+	color: white;
+	float: right;
+	display: inline;
+	font-size: 15px;
+	}
+
+}
